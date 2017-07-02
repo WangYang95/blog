@@ -38,7 +38,8 @@ This is an [example link](http://#/).
 	[2]: https://www.baidu.com/
 	[3]: https://cn.bing.com/
 这会显示为：  
-常用的搜索引擎有：[Google][1]、[百度][2]和[Bing][3]。
+常用的搜索引擎有：[Google][1]、[百度][2]和[Bing][3]。  
+
 [1]: https://www.google.com/
 [2]: https://www.baidu.com/
 [3]: https://cn.bing.com/
