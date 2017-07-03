@@ -81,7 +81,8 @@ radio根据input中的name属性进行分组。
   - 储存key供服务器校验用户信息；
   - 更新条目时，储存id供更新使用。 
     
-  ## HTML表单的使用
+## HTML表单的使用  
+
   [表单的使用](https://github.com/WangYang95/blog/blob/master/HTML%E8%A1%A8%E5%8D%95%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8.md)
 
 
