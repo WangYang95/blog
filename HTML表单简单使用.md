@@ -6,6 +6,7 @@
     <form action="xxx" method="get">
     </form>
 在`<form>`标签中,常用属性如下所示：  
+
 |属性|值|描述|
 |:-:|:-:|:-:|
 |action|URL|规定当提交表单时向何处发送表单数据|
