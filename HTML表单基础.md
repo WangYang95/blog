@@ -22,7 +22,8 @@
   |type|类型|input 元素的类型|
   |value|值|规定 input 元素的值|
   
-  关于type属性的说明如下所示：
+  关于type属性的说明如下所示：  
+  
   |type的值|说明|
   |:-:|:-:|
   |button|按钮|
