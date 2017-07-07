@@ -4,7 +4,7 @@ Git是一个先进的分布式版本控制系统，拥有快速、简单、分�
 ## Git 安装
 在Linux中，可以先使用`git`命令查看是否已经安装。如果没有安装会有友好的提示。在Ubuntu中，可以使用`sudo apt-get install git`命令直接完成Git的安装；如果是其他Linux版本，可以直接通过源码安装。先从Git官网下载源码，然后解压，依次输入：`./config`，`make`，`sudo make install`这几个命令安装就好了。
 在Mac OS中，直接从AppStore安装并运行Xcode，选择菜单“Xcode”->“Preferences”，在弹出窗口中找到“Downloads”，选择“Command Line Tools”，点“Install”就可以完成安装了。  
-在Windows中，可以从https://git-for-windows.github.io下载安装。  
+在Windows中，可以从`https://git-for-windows.github.io`下载安装。  
 使用Git时需要每个机器自报家门，因此安装完成后，需要在命令行中输入如下命令：    
 
 	git config --global user.name "姓名"
@@ -30,11 +30,11 @@ Git版本控制系统中，文件存在三种状态：已提交、已暂存和�
 远程库已经准备好的情况下，使用命令`git clone 路径`来克隆库。路径可以使用https方式和SSH方式。使用https除了速度慢以外，还有个最大的麻烦是每次推送都必须输入口令；而设置好SSH协议和公钥后，SSH更快更方便。  
 ### 分支
 Git鼓励大量使用分支：
-查看分支：`git branch`
-创建分支：`git branch 分支名`
-切换分支：`git checkout 分支名` 
-创建+切换分支：`git checkout -b 分支名`
-合并某分支到当前分支：`git merge 分支名`
+查看分支：`git branch`  
+创建分支：`git branch 分支名`  
+切换分支：`git checkout 分支名`  
+创建+切换分支：`git checkout -b 分支名`  
+合并某分支到当前分支：`git merge 分支名`  
 删除分支：`git branch -d 分支名`
 ### 本地更新  
 在绑定或克隆库之后，我们可以使用`git pull`来进行更新。但在多人协作时，可能会在更新本地时出现冲突。当出现冲突时，我们应当手动修改冲突文件并重新提交。  
